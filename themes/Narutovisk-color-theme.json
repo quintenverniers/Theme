@@ -32,7 +32,6 @@
 		"terminal.background": "#0a031d",
 		"terminalCursor.foreground": "#695656",
 		"scrollbarSlider.background": "#4e566660",
-
 	},
 	"tokenColors": [
 		{
