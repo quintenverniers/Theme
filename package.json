@@ -1,8 +1,8 @@
 {
-    "name": "preparing",
-    "displayName": "Quest Dark",
+    "name": "quest-vscode-theme",
+    "displayName": "Quest",
     "description": "Dark theme with vibrant colours and dark blue backgrounds",
-    "version": "1.7.0",
+    "version": "1.0.0",
     "publisher": "Quinten Verniers",
     "author": "Quinten Verniers",
     "icon": "logo.png",
