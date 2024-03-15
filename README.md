@@ -1,11 +1,24 @@
 # The theme
 
-![image](https://user-images.githubusercontent.com/58439854/90839292-86a1b700-e32d-11ea-893b-20472372466b.png)
+![image](/quest-theme-screenshot.png)
 
-## To install
+## How to install
 
-- To be announced
+### VSCode
+
+Open the extensions panel in VSCode and search for "quest theme".
+Find the one with the compass logo and install it.
+
+After installation to use the theme:
+VSCode -> Settings -> Theme -> Color Theme -> Select Quest from the list.
+
+#### Disclaimer
+
+I made this theme for personal usage. I forked the Naruto Dark theme by Thomaz and used it as a base.
+He should also receive credits for his efforts on the original theme. Checkout his Naruto Dark theme as well.
+
+Since I made this for personal use, I might make changes in the future as I use the theme more. 
 
 # License
-[MIT License](./LICENSE) © Dark Theme
+[MIT License](./LICENSE) © Quest Theme
 

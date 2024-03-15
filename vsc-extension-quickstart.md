@@ -4,7 +4,7 @@
 
 * This folder contains all of the files necessary for your color theme extension.
 * `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Narutovisk-color-theme.json` - the color theme definition file.
+* `themes/Quest-color-theme.json` - the color theme definition file.
 
 ## Get up and running straight away
 
@@ -16,13 +16,25 @@
 
 * Changes to the theme file are automatically applied to the Extension Development Host window.
 
+## Install theme locally
+If you wish to install the theme (or an updated version of the theme) locally without publishing it to the vscode marketplace, take the following steps:
+* Install vsce using 
+```zsh 
+    foo@bar:~$ npm i -g vsce
+```
+* next run ```vsce package``` to create an installabel file of your theme (vsix format)
+* install the vsix file using
+```zsh
+    code --install-extension your-theme-name.vsix
+```
+* Now your theme will be available for selection as the color theme.
+
 ## Adopt your theme to Visual Studio Code
 
 * The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
 
 To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
-## Install your extension
+## Publishing
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+
