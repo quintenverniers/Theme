@@ -1,10 +1,10 @@
 {
     "name": "preparing",
-    "displayName": "Dark",
-    "description": "Theme designed in a naruto style, but more darker",
+    "displayName": "Quest Dark",
+    "description": "Dark theme with vibrant colours and dark blue backgrounds",
     "version": "1.7.0",
-    "publisher": "Thomaz",
-    "author": "Thomaz",
+    "publisher": "Quinten Verniers",
+    "author": "Quinten Verniers",
     "icon": "logo.png",
     "galleryBanner": {
         "color": "090b10",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Thomaz-Peres/Theme"
+        "url": "https://github.com/quintenverniers/Theme"
     },
     "engines": {
         "vscode": "^1.47.0"
@@ -24,18 +24,20 @@
     "keywords": [
         "VSCode",
         "Themes",
-        "naruto",
+        "quest",
         "dark",
         "themes",
         "theme",
-        "color-theme"
+        "color-theme",
+        "ocean",
+        "dark-blue"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "NarutoDark",
+                "label": "Quest",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Narutovisk-color-theme.json"
+                "path": "./themes/Quest-color-theme.json"
             }
         ]
     }
